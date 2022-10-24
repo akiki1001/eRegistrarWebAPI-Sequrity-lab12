@@ -14,8 +14,7 @@ import javax.validation.constraints.NotBlank;
 @Data
 @AllArgsConstructor(staticName = "build")
 @NoArgsConstructor
-public class PublisherRequest {
+public class StudentRequest {
     @NotBlank(message = "Publisher name cannot be null, empty or blank")
     private String name;
-    private PrimaryAddress primaryAddress;
 }
